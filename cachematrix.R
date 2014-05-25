@@ -1,13 +1,15 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-##This function creates a special "matrix" object that can cache its inverse.
+##This function creates a special "matrix" object.
 makeCacheMatrix <- function(x = matrix()) {
       m<-NULL
-      set<-function(y)
-
+      set<-function(matrix(y,z)){
+            x<<-y
+            m<<-NULL
+      }
+            
 }
-
 
 
 ## Write a short comment describing this function
